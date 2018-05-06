@@ -44,7 +44,7 @@ glosa-figurMIDI.omp - a variant of the main patch (MIDI values as input).
 
 glosa-figur-help.omp - a help patch containing an example and some operating mode instructions.
 
-glosa-figur-help_ALL.omp - same as "glosa-figur-help.omp" but self-contained, i.e. it contains the patcehs "glosa-figur.omp" and "glosa-figur-help.omp" as abstractions.
+glosa-figur-help_ALL.omp - same as "glosa-figur-help.omp" but self-contained, i.e. it contains the patches "glosa-figur.omp" and "glosa-figur-help.omp" as abstractions.
 
 # Operation
 For operating details see:
