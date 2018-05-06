@@ -1,6 +1,6 @@
 # The “glosa-figur” OpenMusic patch
 
-porgramming: Antonio de SOUSA DIAS
+design and programming: Antonio de SOUSA DIAS
 
 
 ## DESCRIPTION:
