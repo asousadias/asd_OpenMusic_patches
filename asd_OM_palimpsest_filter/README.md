@@ -2,7 +2,7 @@
 
 Design and programming: Antonio de SOUSA DIAS
 
-## Description:
+# Description:
 The “palimpsesto flt” is an OpenMusic patch that transposes to the note domain the operations of filtering and morphing that we find in the audio domain.
 
 His operating mode is anchored on the idea of palimpsest, and its operation mode can be described as follows:  it takes two input MIDI files or "chord-seq" (a source file and a modulator file) and produces a third MIDI file according to one of two main operation modes (the Method parameter).
@@ -13,7 +13,7 @@ The second mode, “rounds” all notes from the source file to the nearest note
 
 The 2009 version is a revised one where a Time Adjust parameter has been added to adjust the length of the two input chord sequences.
 
-### Inputs:
+## Inputs:
 -chord-seq 1. A chord-seq object used as source.
 
 -chord-seq 2. A chord-seq object used as filter/modulator.
@@ -37,7 +37,7 @@ The 2009 version is a revised one where a Time Adjust parameter has been added t
 	3-Round to nearest pitch class.
 	
 
-### Outputs:
+## Outputs:
 -Chord sequence object data.
 
 # Remarks
