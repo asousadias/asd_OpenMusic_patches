@@ -12,41 +12,30 @@ The resulting data is prepared to be read by a score editor.
 
 #### Inputs:
 -list of MIDIcents (or MIDI in the patch "glosa-figurMIDI"): the "Cantus Firmus".<br>
--list of MIDIcents(or MIDI in the patch "glosa-figurMIDI"): the melodic sequence to be used as an ornamentation reservoir.
--integer: Length of CF notes, for score viewing purposes (ms).
--integer: Length of each generated note (ms).
+-list of MIDIcents(or MIDI in the patch "glosa-figurMIDI"): the melodic sequence to be used as an ornamentation reservoir.<br>
+-integer: Length of CF notes, for score viewing purposes (ms).<br>
+-integer: Length of each generated note (ms).<br>
 -integer: Number of staves/lines (channels).
 
 
 #### Outputs:
-Leftmost output:
-
--list of lists: output list of all values.
-
-Remaining output to be used with a chord-seq:
-
--lmidic: list of MIDIcent
-
--lonset: list of onset values (ms)
-
--ldur: list of note durations (ms)
-
--lchan: list of note MIDI channels
+Leftmost output:<br>
+-list of lists: output list of all values.<br>
+Remaining output to be used with a chord-seq:<br>
+-lmidic: list of MIDIcent<br>
+-lonset: list of onset values (ms)<br>
+-ldur: list of note durations (ms)<br>
+-lchan: list of note MIDI channels<br>
 
 ## Remarks
-The current folder consists of:
-
-glosa-figur.omp - the main patch.
-
-glosa-figurMIDI.omp - a variant of the main patch (MIDI values as input).
-
-glosa-figur-help.omp - a help patch containing an example and some operating mode instructions.
-
-glosa-figur-help_ALL.omp - same as "glosa-figur-help.omp" but self-contained, i.e. it contains the patches "glosa-figur.omp" and "glosa-figur-help.omp" as abstractions.
+The current folder consists of:<br>
+glosa-figur.omp - the main patch.<br>
+glosa-figurMIDI.omp - a variant of the main patch (MIDI values as input).<br>
+glosa-figur-help.omp - a help patch containing an example and some operating mode instructions.<br>
+glosa-figur-help_ALL.omp - same as "glosa-figur-help.omp" but self-contained, i.e. it contains the patches "glosa-figur.omp" and "glosa-figur-help.omp" as abstractions.<br>
 
 ## Operation
-For operating details see:
-
+For operating details see:<br>
 Sousa Dias, A. “Two examples of free transposition of audio processing techniques to the note domain in “Dói-me o luar” and Ressonâncias – Memórias”. C. Agon, G. Assayag, J. Bresson (org.), The OM Composer´s Book. 2, Paris, IRCAM / Delatour, 2008.
 ISBN: 2-84426-399-2.
 http://recherche.ircam.fr/equipes/repmus/OMBook/
@@ -66,10 +55,10 @@ These patches are distributed in the hope that they will be useful, but WITHOUT 
 
 
 
-Faculdade de Belas-Artes,
-Universidade de Lisboa
-Largo da Academia Nacional de Belas-Artes
-1249-058 Lisboa, Portugal
+Faculdade de Belas-Artes,<br>
+Universidade de Lisboa<br>
+Largo da Academia Nacional de Belas-Artes<br>
+1249-058 Lisboa, Portugal<br>
 http://www.belasartes.ulisboa.pt/
 
 www.sousadias.com
