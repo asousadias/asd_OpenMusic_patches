@@ -5,7 +5,7 @@ programming by Antonio de Sousa Dias
 
 (continuous update)
 
-Here you'll find patches programmed in Open Music exploring several compotion techniques, or musical analysis by synthesis.
+Patches programmed in Open Music exploring several compotion techniques, or musical analysis by synthesis.
 
 ## Operation Mode
 Drag the folders to the Open music Workspace. Although these patches work as subpatches, I've added a complete patch with no dependencies - all patches are abstractions in order to garatee you should allways understand the connections. Enjoy.
@@ -16,6 +16,7 @@ Drag the folders to the Open music Workspace. Although these patches work as sub
 
 ## References
 _asd_OM_glosaFigurs_ and _asd_OM_palimpsest_filter_ are fully explained in
+
 Sousa Dias, A. Two examples of free transposition of audio processing techniques to the note domain in “Dói-me o luar” and Ressonâncias – Memórias. C. Agon, G. Assayag, J. Bresson (org.), _The OM Composer´s Book. 2_, Paris, IRCAM / Delatour, 2008.
 ISBN: 2-84426-399-2.
 
