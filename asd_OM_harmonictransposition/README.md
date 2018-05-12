@@ -21,9 +21,9 @@ In the resulting <multi-seq>, the top line is the original list and in the botto
 ## Remarks
 Requires the Esquisse library<br>
 The current folder consists of:<br>
-- harmonic_transposition.omp - the main patch.
-- harmonic_transposition_help.omp - a help patch containing an example and some operating mode instructions.
-- harmonic_transposition_help_ALL.omp - same as _fractalize-n-help.omp_ but self-contained, i.e. it contains all the patches as abstractions.<br>
+- _harmonic_transposition.omp_ - the main patch.
+- _harmonic_transposition_help.omp_ - a help patch containing an example and some operating mode instructions.
+- _harmonic_transposition_help_ALL.omp_ - same as _harmonic_transposition_help.omp_ but self-contained, i.e. it contains all the patches as abstractions.<br>
 
 ## History:
 - 2018, May: Release on GitHub.
