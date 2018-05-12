@@ -12,8 +12,16 @@ ISBN: 2-84426-399-2.
 
 Enjoy
 
-
 Antonio de Sousa Dias
+
+## Revision history
+
+### 2018, May:
+Initial release:
+- asd_OM_glosaFigurs - it generates a set of melodic figures resulting from the analysis of two motifs, recapturing the idea of glosa.
+- asd_OM_palimpsest_filter - it takes two input MIDI files (a source file and a modulator file) and produces a third MIDI file according to one of two main operation modes.
+
+
 
 Universidade de Lisboa, Faculdade de Belas Artes http://www.belasartes.ulisboa.pt/
 
