@@ -13,28 +13,28 @@ this patch, for each two notes of the CF, finds all excerpts belonging to MS who
 The resulting data is prepared to be read by a score editor.
 
 #### Inputs:
--list of MIDIcents (or MIDI in the patch "glosa-figurMIDI"): the "Cantus Firmus".<br>
--list of MIDIcents(or MIDI in the patch "glosa-figurMIDI"): the melodic sequence to be used as an ornamentation reservoir.<br>
--integer: Length of CF notes, for score viewing purposes (ms).<br>
--integer: Length of each generated note (ms).<br>
--integer: Number of staves/lines (channels).
+- list of MIDIcents (or MIDI in the patch "glosa-figurMIDI"): the "Cantus Firmus".<br>
+-  list of MIDIcents(or MIDI in the patch "glosa-figurMIDI"): the melodic sequence to be used as an ornamentation reservoir.<br>
+- integer: Length of CF notes, for score viewing purposes (ms).<br>
+- integer: Length of each generated note (ms).<br>
+- integer: Number of staves/lines (channels).
 
 
 #### Outputs:
 Leftmost output:<br>
--list of lists: output list of all values.<br>
+- list of lists: output list of all values.<br>
 Remaining output to be used with a chord-seq:<br>
--lmidic: list of MIDIcent<br>
--lonset: list of onset values (ms)<br>
--ldur: list of note durations (ms)<br>
--lchan: list of note MIDI channels<br>
+- lmidic: list of MIDIcent<br>
+- lonset: list of onset values (ms)<br>
+- ldur: list of note durations (ms)<br>
+- lchan: list of note MIDI channels<br>
 
 ## Remarks
 The current folder consists of:<br>
-glosa-figur.omp - the main patch.<br>
-glosa-figurMIDI.omp - a variant of the main patch (MIDI values as input).<br>
-glosa-figur-help.omp - a help patch containing an example and some operating mode instructions.<br>
-glosa-figur-help_ALL.omp - same as "glosa-figur-help.omp" but self-contained, i.e. it contains the patches "glosa-figur.omp" and "glosa-figur-help.omp" as abstractions.<br>
+- glosa-figur.omp - the main patch.<br>
+- glosa-figurMIDI.omp - a variant of the main patch (MIDI values as input).<br>
+- glosa-figur-help.omp - a help patch containing an example and some operating mode instructions.<br>
+- glosa-figur-help_ALL.omp - same as "glosa-figur-help.omp" but self-contained, i.e. it contains the patches "glosa-figur.omp" and "glosa-figur-help.omp" as abstractions.<br>
 
 ## References
 For operating details see:<br>
