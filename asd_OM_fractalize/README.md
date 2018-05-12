@@ -28,14 +28,12 @@ FRACTALIZE-REC is another recursive version of FRACTALIZE-N.
 
 ## Remarks
 The current folder consists of:<br>
-
-- fractalize-n.omp - the main patch.<br> 
-- fractalize-n-help.omp - a help patch containing an example and some operating mode instructions.<br>
-- fractalize-rec.omp - a variant of the main patch.<br>
-- fractalize_rec-help.omp - a help patch containing an example and some operating mode instructions.<br>
+- fractalize-n.omp - the main patch.
+- fractalize-n-help.omp - a help patch containing an example and some operating mode instructions.
+- fractalize-rec.omp - a variant of the main patch.
+- fractalize_rec-help.omp - a help patch containing an example and some operating mode instructions.
 - onset-dur.omp - subsidiary patch for regular onset/duration generation
 - fractalize-n-help ALL.omp - same as _fractalize-n-help.omp_ but self-contained, i.e. it contains all the patches as abstractions.<br>
-
 
 ## History:
 - 2018, May: Release on GitHub<br>
