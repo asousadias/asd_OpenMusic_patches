@@ -15,14 +15,14 @@ The 2009 version is a revised one where a Time Adjust parameter has been added t
 -chord-seq 1. A chord-seq object used as source.<br>
 -chord-seq 2. A chord-seq object used as filter/modulator.<br>
 -Time adjust (integer)<br>
-	0-No change;<br>
-	1-Length of Inp-1 set to length of Inp-2;<br>
-	2 (or else) -Length of Inp-2 set to length of Inp-1.<br>
+	0-No change;
+	1-Length of Inp-1 set to length of Inp-2;
+	2 (or else) -Length of Inp-2 set to length of Inp-1.
 -Method (integer)<br>
-	0-Band pass note;<br>
-	1-Band pass pitch class;<br>
-	2-Round to nearest note;<br>
-	3-Round to nearest pitch class.<br>
+	0-Band pass note;
+	1-Band pass pitch class;
+	2-Round to nearest note;
+	3-Round to nearest pitch class.
 	
 ### Outputs:
 -Chord sequence object data.
