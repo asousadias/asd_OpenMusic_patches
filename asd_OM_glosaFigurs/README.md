@@ -1,14 +1,16 @@
 # The “glosa-figur” OpenMusic patch
 
-design and programming: Antonio de SOUSA DIAS
+design and programming
+Antonio de SOUSA DIAS
+a.sousadias@belasartes.ulisboa.pt
 
 
-## DESCRIPTION:
+## Description:
 Given a melodic sequence as a _Cantus Firmus_ (CF) and a _melodic sequence_ (MS) as an ornamentation reservoir. For each two notes of the CF, this patch finds all excerpts belonging to MS whose extreme notes form the same interval.
 
 The resulting data is prepared to be read by a score editor.
 
-### Inputs:
+#### Inputs:
 -list of MIDIcents (or MIDI in the patch "glosa-figurMIDI"): the "Cantus Firmus".
 
 -list of MIDIcents(or MIDI in the patch "glosa-figurMIDI"): the melodic sequence to be used as an ornamentation reservoir.
@@ -20,7 +22,7 @@ The resulting data is prepared to be read by a score editor.
 -integer: Number of staves/lines (channels).
 
 
-### Outputs:
+#### Outputs:
 Leftmost output:
 
 -list of lists: output list of all values.
@@ -35,7 +37,7 @@ Remaining output to be used with a chord-seq:
 
 -lchan: list of note MIDI channels
 
-# Remarks
+## Remarks
 The current folder consists of:
 
 glosa-figur.omp - the main patch.
@@ -46,35 +48,33 @@ glosa-figur-help.omp - a help patch containing an example and some operating mod
 
 glosa-figur-help_ALL.omp - same as "glosa-figur-help.omp" but self-contained, i.e. it contains the patches "glosa-figur.omp" and "glosa-figur-help.omp" as abstractions.
 
-# Operation
+## Operation
 For operating details see:
 
 Sousa Dias, A. “Two examples of free transposition of audio processing techniques to the note domain in “Dói-me o luar” and Ressonâncias – Memórias”. C. Agon, G. Assayag, J. Bresson (org.), The OM Composer´s Book. 2, Paris, IRCAM / Delatour, 2008.
 ISBN: 2-84426-399-2.
 http://recherche.ircam.fr/equipes/repmus/OMBook/
 
-I hope it will be useful.
 
-Antonio de Sousa Dias
+## Revision history:
 
-Universidade de Lisboa, Faculdade de Belas-Artes
+### 2018, May
+Release on GitHub
 
-a.sousadias@belasartes.ulisboa.pt
-
-2009-2018
-
-# Revision history:
+### Jan 2009
+Initial release on CICM site
 
 
-
-
-## Disclaimer:
+### Disclaimer:
 These patches are distributed in the hope that they will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
 
 Faculdade de Belas-Artes,
 Universidade de Lisboa
 Largo da Academia Nacional de Belas-Artes
 1249-058 Lisboa, Portugal
+http://www.belasartes.ulisboa.pt/
 
 www.sousadias.com
 
