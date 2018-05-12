@@ -6,8 +6,10 @@ a.sousadias@belasartes.ulisboa.pt
 
 
 ## Description:
-Given a melodic sequence as a _Cantus Firmus_ (CF) and a _melodic sequence_ (MS) as an ornamentation reservoir. For each two notes of the CF, this patch finds all excerpts belonging to MS whose extreme notes form the same interval.
-
+Given as inputs<br>
+a melodic sequence as a _Cantus Firmus_ (CF) and<br>
+a _melodic sequence_ (MS) as an ornamentation reservoir,<br>
+this patch, for each two notes of the CF, finds all excerpts belonging to MS whose extreme notes form the same interval.<br>
 The resulting data is prepared to be read by a score editor.
 
 #### Inputs:
@@ -34,7 +36,7 @@ glosa-figurMIDI.omp - a variant of the main patch (MIDI values as input).<br>
 glosa-figur-help.omp - a help patch containing an example and some operating mode instructions.<br>
 glosa-figur-help_ALL.omp - same as "glosa-figur-help.omp" but self-contained, i.e. it contains the patches "glosa-figur.omp" and "glosa-figur-help.omp" as abstractions.<br>
 
-## Operation
+## References
 For operating details see:<br>
 Sousa Dias, A. “Two examples of free transposition of audio processing techniques to the note domain in “Dói-me o luar” and Ressonâncias – Memórias”. C. Agon, G. Assayag, J. Bresson (org.), The OM Composer´s Book. 2, Paris, IRCAM / Delatour, 2008.
 ISBN: 2-84426-399-2.
