@@ -1,7 +1,7 @@
 # The “glosa-figur” OpenMusic patch
 
-design and programming
-Antonio de SOUSA DIAS
+Design and programming<br>
+Antonio de SOUSA DIAS<br>
 a.sousadias@belasartes.ulisboa.pt
 
 
