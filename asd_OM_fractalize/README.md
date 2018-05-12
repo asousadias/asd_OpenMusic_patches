@@ -19,9 +19,9 @@ FRACTALIZE-N and FRACTALIZE-REC take two lists and generate a recursive pattern 
 ### FRACTALIZE-REC
 FRACTALIZE-REC is another recursive version of FRACTALIZE-N.
 #### Inputs:
-- a motif given as a MIDIcent list
-- a MIDICent list of distances
-- the number of recursion levels to generate.
+- Motif given as a MIDIcent list
+- List of MIDICent distances
+- Number of recursion levels to generate.
 #### Outputs:
 - List of MIDI Cent values (pattern based upon the mapping of the first list over the second list)
 
@@ -36,10 +36,10 @@ The current folder consists of:<br>
 - fractalize-n-help ALL.omp - same as _fractalize-n-help.omp_ but self-contained, i.e. it contains all the patches as abstractions.<br>
 
 ## History:
-- 2018, May: Release on GitHub<br>
-- 2008, May: OM version for release.<br>
-- 2001: First OM version.<br>
-- 1988: Initial design and programming in GFA Basic (Atari ST). Used in the documentary _Fernando Lanhas — Os Sete Rostos_ (António de Macedo, 1988). https://www.imdb.com/title/tt0492932<br>
+- 2018, May: Release on GitHub.
+- 2008, May: OM version for release.
+- 2001: First OM version.
+- 1988: Initial design and programming in GFA Basic (Atari ST). Used in the documentary _Fernando Lanhas — Os Sete Rostos_ (António de Macedo, 1988). https://www.imdb.com/title/tt0492932
 
 
 ### Disclaimer:
