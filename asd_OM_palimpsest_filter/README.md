@@ -12,7 +12,7 @@ The second mode, “rounds” all notes from the source file to the nearest note
 The 2009 version is a revised one where a Time Adjust parameter has been added to adjust the length of the two input chord sequences.<br>
 
 ### Inputs:
-- chord-seq 1. A chord-seq object used as source.<br>
+- chord-seq 1. A chord-seq object used as source.
 - chord-seq 2. A chord-seq object used as filter/modulator.<br>
 - Time adjust (integer):<br>
 
