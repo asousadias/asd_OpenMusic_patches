@@ -7,12 +7,12 @@ a.sousadias@belasartes.ulisboa.pt
 
 ## Description:
 Given as inputs<br>
-a melodic sequence as a _Cantus Firmus_ (CF) and<br>
-a _melodic sequence_ (MS) as an ornamentation reservoir,<br>
+- a melodic sequence as a _Cantus Firmus_ (CF) and<br>
+- a _melodic sequence_ (MS) as an ornamentation reservoir,<br>
 this patch, for each two notes of the CF, finds all excerpts belonging to MS whose extreme notes form the same interval.<br>
 The resulting data is prepared to be read by a score editor.
 
-#### Inputs:
+### Inputs:
 - list of MIDIcents (or MIDI in the patch "glosa-figurMIDI"): the "Cantus Firmus".<br>
 -  list of MIDIcents(or MIDI in the patch "glosa-figurMIDI"): the melodic sequence to be used as an ornamentation reservoir.<br>
 - integer: Length of CF notes, for score viewing purposes (ms).<br>
@@ -20,10 +20,10 @@ The resulting data is prepared to be read by a score editor.
 - integer: Number of staves/lines (channels).
 
 
-#### Outputs:
-Leftmost output:<br>
+### Outputs:
+#### Leftmost output:<br>
 - list of lists: output list of all values.<br>
-Remaining output to be used with a chord-seq:<br>
+#### Remaining output to be used with a chord-seq:<br>
 - lmidic: list of MIDIcent<br>
 - lonset: list of onset values (ms)<br>
 - ldur: list of note durations (ms)<br>
