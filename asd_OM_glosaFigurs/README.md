@@ -12,13 +12,9 @@ The resulting data is prepared to be read by a score editor.
 
 #### Inputs:
 -list of MIDIcents (or MIDI in the patch "glosa-figurMIDI"): the "Cantus Firmus".
-
 -list of MIDIcents(or MIDI in the patch "glosa-figurMIDI"): the melodic sequence to be used as an ornamentation reservoir.
-
 -integer: Length of CF notes, for score viewing purposes (ms).
-
 -integer: Length of each generated note (ms).
-
 -integer: Number of staves/lines (channels).
 
 
