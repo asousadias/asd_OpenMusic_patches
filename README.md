@@ -1,7 +1,9 @@
 # Open Music Patches Collection
 Compositional techniques programmed as Open Music patches.
 
-programming by Antonio de Sousa Dias
+Design and programming<br>
+Antonio de SOUSA DIAS<br>
+a.sousadias@belasartes.ulisboa.pt
 
 (continuous update)
 
@@ -15,19 +17,15 @@ Drag the folders to the Open music Workspace. Although these patches work as sub
 - asd_OM_palimpsest_filter - it takes two input MIDI files (a source file and a modulator file) and produces a third MIDI file according to one of two main operation modes.
 
 ## References
-_asd_OM_glosaFigurs_ and _asd_OM_palimpsest_filter_ are fully explained in
-
+_asd_OM_glosaFigurs_ and _asd_OM_palimpsest_filter_ are fully explained in<br>
 Sousa Dias, A. Two examples of free transposition of audio processing techniques to the note domain in “Dói-me o luar” and Ressonâncias – Memórias. C. Agon, G. Assayag, J. Bresson (org.), _The OM Composer´s Book. 2_, Paris, IRCAM / Delatour, 2008.
 ISBN: 2-84426-399-2.
 
 
 ## Revision history
-
-### 2018, May:
-Initial release:
-- asd_OM_glosaFigurs.
-- asd_OM_palimpsest_filter.
-
+- 2018, May: Initial release on GitHub:
+  - asd_OM_glosaFigurs.
+  - asd_OM_palimpsest_filter.
 
 
 ## Disclaimer:
