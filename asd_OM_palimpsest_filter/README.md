@@ -1,6 +1,6 @@
 # The _palimpsesto flt_ OpenMusic patch
 
-design and programming<br>
+Design and programming<br>
 Antonio de SOUSA DIAS<br>
 a.sousadias@belasartes.ulisboa.pt
 
@@ -12,15 +12,15 @@ The second mode, “rounds” all notes from the source file to the nearest note
 The 2009 version is a revised one where a Time Adjust parameter has been added to adjust the length of the two input chord sequences.<br>
 
 ### Inputs:
--chord-seq 1. A chord-seq object used as source.<br>
--chord-seq 2. A chord-seq object used as filter/modulator.<br>
--Time adjust (integer):<br>
+- chord-seq 1. A chord-seq object used as source.<br>
+- chord-seq 2. A chord-seq object used as filter/modulator.<br>
+- Time adjust (integer):<br>
 
 	0-No change;
 	1-Length of Inp-1 set to length of Inp-2;
 	2 (or else) -Length of Inp-2 set to length of Inp-1.
 	
--Method (integer):<br>
+- Method (integer):<br>
 
 	0-Band pass note;
 	1-Band pass pitch class;
@@ -28,7 +28,7 @@ The 2009 version is a revised one where a Time Adjust parameter has been added t
 	3-Round to nearest pitch class.
 	
 ### Outputs:
--Chord sequence object data.
+- Chord sequence object data.
 
 ## Remarks
 The current folder consists of:<br>
@@ -44,10 +44,10 @@ http://recherche.ircam.fr/equipes/repmus/OMBook/
 
 
 ## Revision history:
-2018, May: Release on GitHub<br>
-2010, Jan 12: Minor correction to adjust select values on select object<br>
-2009, Jan: Initial release on CICM site<br>
-2002-2003: Initial design and programming for use in _ressonâncias-Memórias_(2003)<br>
+- 2018, May: Release on GitHub<br>
+- 2010, Jan 12: Minor correction to adjust select values on select object<br>
+- 2009, Jan: Initial release on CICM site<br>
+- 2002-2003: Initial design and programming for use in _Ressonâncias-Memórias_(2003)<br>
 
 ## Disclaimer:
 These patches are distributed in the hope that they will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.<br>
