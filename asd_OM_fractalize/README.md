@@ -8,13 +8,22 @@ a.sousadias@belasartes.ulisboa.pt
 ## Description:
 FRACTALIZE-N and FRACTALIZE-REC take two lists and generate a recursive pattern based upon the mapping of the first over the second list.
 
-### Inputs:
-- 
-- 
+### FRACTALIZE-N
+#### Inputs:
+- List of MIDI Cent values
+- List of MIDI Cent values
 - Number of recursion levels to generate
+#### Outputs:
+- List of MIDI Cent values (pattern based upon the mapping of the first list over the second list)
 
-
-### Outputs:
+### FRACTALIZE-REC
+FRACTALIZE-REC is another recursive version of FRACTALIZE-N.
+#### Inputs:
+- a motif given as a MIDIcent list
+- a MIDICent list of distances
+- the number of recursion levels to generate.
+#### Outputs:
+- List of MIDI Cent values (pattern based upon the mapping of the first list over the second list)
 
 
 ## Remarks
