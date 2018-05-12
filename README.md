@@ -5,12 +5,13 @@ Design and programming<br>
 Antonio de SOUSA DIAS<br>
 a.sousadias@belasartes.ulisboa.pt
 
-(continuous update)
-
-Patches programmed in Open Music exploring several compotion techniques, or musical analysis by synthesis.
+## Description:
+Patches programmed in Open Music exploring several compotion techniques, or musical analysis by synthesis.<br>
+NOTE: this is a working in progress, continuous update.
 
 ## Operation Mode
-Drag the folders to the Open music Workspace. Although these patches work as subpatches, I've added a complete patch with no dependencies - all patches are abstractions in order to garatee you should allways understand the connections. Enjoy.
+Drag the folders to the Open music Workspace. Although these patches work as subpatches, I've added a complete patch with no dependencies - all patches are abstractions in order to garatee you should allways understand the connections.<br>
+Enjoy.
 
 ## Patch List
 - asd_OM_glosaFigurs - it generates a set of melodic figures resulting from the analysis of two motifs, recapturing the idea of glosa.
@@ -28,10 +29,16 @@ ISBN: 2-84426-399-2.
   - asd_OM_palimpsest_filter.
 
 
-## Disclaimer:
+
+### Disclaimer:
 These patches are distributed in the hope that they will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 
-Universidade de Lisboa, Faculdade de Belas Artes http://www.belasartes.ulisboa.pt/ - a.sousadias@belasartes.ulisboa.pt 
+
+Faculdade de Belas-Artes,<br>
+Universidade de Lisboa<br>
+Largo da Academia Nacional de Belas-Artes<br>
+1249-058 Lisboa, Portugal<br>
+http://www.belasartes.ulisboa.pt/
 
 www.sousadias.com
