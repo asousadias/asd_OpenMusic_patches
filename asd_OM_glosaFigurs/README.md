@@ -44,12 +44,9 @@ http://recherche.ircam.fr/equipes/repmus/OMBook/
 
 
 ## Revision history:
-
-### 2018, May
-Release on GitHub
-
-### Jan 2009
-Initial release on CICM site
+- 2018, May: Release on GitHub<br>
+- 2009, Jan: Initial release on CICM site<br>
+- 2001: Initial design and programming for use in _"Doi-me o luar"_(2001) under the name _Recursivus_<br>
 
 
 ### Disclaimer:
