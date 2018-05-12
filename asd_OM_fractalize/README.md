@@ -34,23 +34,22 @@ The current folder consists of:<br>
 - fractalize-rec.omp - a variant of the main patch.<br>
 - fractalize_rec-help.omp - a help patch containing an example and some operating mode instructions.<br>
 - onset-dur.omp - subsidiary patch for regular onset/duration generation
+- fractalize-n-help ALL.omp - same as _fractalize-n-help.omp_ but self-contained, i.e. it contains all the patches as abstractions.<br>
 
-- fractalize-n-help ALL.omp - same as "fractalize-n-help.omp" but self-contained, i.e. it contains the patches "fractalize-n-help.omp" and "glosa-figur-help.omp" as abstractions.<br>
 
-
-## Revision history:
+## History:
 - 2018, May: Release on GitHub<br>
 - 2008, May: OM version for release.<br>
-- 2001: Initial design and programming in OM after a version made in GFA Basic (Atari ST) in 1989.<br>
+- 2001: First OM version.<br>
+- 1988: Initial design and programming in GFA Basic (Atari ST). Used in the documentary _Fernando Lanhas — Os Sete Rostos_ (António de Macedo, 1988). https://www.imdb.com/title/tt0492932<br>
 
 
 ### Disclaimer:
 These patches are distributed in the hope that they will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 
-
-Faculdade de Belas-Artes,<br>
-Universidade de Lisboa<br>
+Antonio de Sousa Dias<br>
+Faculdade de Belas-Artes, Universidade de Lisboa<br>
 Largo da Academia Nacional de Belas-Artes<br>
 1249-058 Lisboa, Portugal<br>
 http://www.belasartes.ulisboa.pt/
