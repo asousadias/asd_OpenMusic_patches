@@ -19,17 +19,17 @@ The patches SCALE2RANGE, LCYCLE and RTM_STEP included in the __lib_util__ folder
 See the _logisticMap-help.omp_ for operation. The _logisticMap-help_ALL_ is the same implementation but all patches turned into abstractions, in case you loose connections.
 
 ## Remarks
-The current folder consists of:<br>
-- logisticMap_base.omp - Logistic Map - X[i] = L * (1 - X[i-1]) * X[i-1]
-- logisticMap_rec.omp - Generates of a list of values [0...1] of length n_iter, according to the logistic map.
-- logisticMap-help.omp -  implementation of the logistic map
-- logisticMap-help_ALL.omp -  implementation of the logistic map, abstractions version.
+The folder consists:<br>
+- __logisticMap_base.omp__ - Logistic Map - X[i] = L * (1 - X[i-1]) * X[i-1]
+- __logisticMap_rec.omp__ - Generates of a list of values [0...1] of length n_iter, according to the logistic map.
+- __logisticMap-help.omp__ -  implementation of the logistic map
+- __logisticMap-help_ALL.omp__ -  implementation of the logistic map, abstractions version.
 - __lib_util/__ - folder containing:
-  - lcycle.omp - generates a list of nr_iteractions length cicling an input list (list2loop).
-  - rtm_step.omp -  outputs two lists, from a list of distances (durations). Outputs
+  - __lcycle.omp__ - generates a list of nr_iteractions length cicling an input list (list2loop).
+  - __rtm_step.omp__ -  outputs two lists, from a list of distances (durations). Outputs
     - a list of time points (on_sets);
     - a list of durations (durs)
-  - scale2range.omp -  scales an input list. Inputs:
+  - __scale2range.omp__ -  scales an input list. Inputs:
     - 0 - Value [0...1]
     - 1 - Range to scale (min max)
     - 2 - Minimum step distance between output values
