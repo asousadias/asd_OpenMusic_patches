@@ -23,14 +23,14 @@ The resulting data is prepared to be read by a score editor.
 ### Outputs:
 #### Leftmost output:<br>
 - list of lists: output list of all values.<br>
-#### Remaining output to be used with a chord-seq:<br>
+#### Remaining output to be used with a __chord-seq__ object:<br>
 - lmidic: list of MIDIcent<br>
 - lonset: list of onset values (ms)<br>
 - ldur: list of note durations (ms)<br>
 - lchan: list of note MIDI channels<br>
 
 ## Remarks
-The current folder consists of:<br>
+The current folder contains:<br>
 - glosa-figur.omp - the main patch.<br>
 - glosa-figurMIDI.omp - a variant of the main patch (MIDI values as input).<br>
 - glosa-figur-help.omp - a help patch containing an example and some operating mode instructions.<br>
@@ -38,9 +38,7 @@ The current folder consists of:<br>
 
 ## References
 For operating details see:<br>
-Sousa Dias, A. “Two examples of free transposition of audio processing techniques to the note domain in “Dói-me o luar” and Ressonâncias – Memórias”. C. Agon, G. Assayag, J. Bresson (org.), The OM Composer´s Book. 2, Paris, IRCAM / Delatour, 2008.
-ISBN: 2-84426-399-2.
-http://recherche.ircam.fr/equipes/repmus/OMBook/
+Sousa Dias, A. (2008) Two examples of free transposition of audio processing techniques to the note domain in “Dói-me o luar” and Ressonâncias – Memórias. C. Agon, G. Assayag, J. Bresson (org.), _The OM Composer´s Book 2_, Paris, IRCAM / Delatour. ISBN: 2-84426-399-2. http://recherche.ircam.fr/equipes/repmus/OMBook/
 
 
 ## Revision history:

@@ -9,7 +9,7 @@ The “palimpsesto flt” is an OpenMusic patch, originally programmed in 2002, 
 His operating mode is anchored on the idea of palimpsest, and its operation mode can be described as follows:  it takes two input MIDI files or "chord-seq" (a source file and a modulator file) and produces a third MIDI file according to one of two main operation modes (the Method parameter).<br>
 The first mode, keeps only the notes from the source file that are equal to the notes of the modulation file, or, in a slight variant possibility, it keeps those notes having the same pitch class. It is thus a resulting hybridization between spectral multiplication and the use of comb filters.<br>
 The second mode, “rounds” all notes from the source file to the nearest notes of the modulation file, or again, in a slight variant possibility, it rounds them to the near pitch class.<br>
-The 2009 version is a revised one where a Time Adjust parameter has been added to adjust the length of the two input chord sequences.<br>
+Starting from 2009 a Time Adjust parameter has been added to adjust the length of the two input chord sequences.<br>
 
 ### Inputs:
 - chord-seq 1. A chord-seq object used as source.
@@ -36,16 +36,14 @@ The current folder consists of:<br>
 
 ## References
 For operating details see:<br>
-Sousa Dias, A. “Two examples of free transposition of audio processing techniques to the note domain in “Dói-me o luar” and Ressonâncias – Memórias”. C. Agon, G. Assayag, J. Bresson (org.), The OM Composer´s Book. 2, Paris, IRCAM / Delatour, 2008.
-ISBN: 2-84426-399-2.
-http://recherche.ircam.fr/equipes/repmus/OMBook/
+Sousa Dias, A. (2008) Two examples of free transposition of audio processing techniques to the note domain in “Dói-me o luar” and Ressonâncias – Memórias. C. Agon, G. Assayag, J. Bresson (org.), _The OM Composer´s Book 2_, Paris, IRCAM / Delatour. ISBN: 2-84426-399-2. http://recherche.ircam.fr/equipes/repmus/OMBook/
 
 
 ## Revision history:
 - 2018, May: Release on GitHub<br>
 - 2010, Jan 12: Minor correction to adjust select values on select object<br>
-- 2009, Jan: Initial release on CICM site<br>
-- 2002-2003: Initial design and programming for use in _Ressonâncias-Memórias_(2003)<br>
+- 2009, Jan: Initial release on CICM site. Time Adjust parameter added to adjust the length of the two input chord sequences.<br>
+- 2002-2003: Initial design and programming for use in _Ressonâncias-Memórias_ (2003).<br>
 
 ## Disclaimer:
 These patches are distributed in the hope that they will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.<br>
