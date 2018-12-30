@@ -28,13 +28,13 @@ ISBN: 2-84426-399-2.
 ## Revision history
 - 2018, May 12: Initial release on GitHub.
 
-### Disclaimer:
-These patches are distributed in the hope that they will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+## Disclaimer:
+These patches are distributed in the hope that they will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.<br>
 
 
 
-Faculdade de Belas-Artes,<br>
-Universidade de Lisboa<br>
+
+Universidade de Lisboa, Faculdade de Belas-Artes<br>
 Largo da Academia Nacional de Belas-Artes<br>
 1249-058 Lisboa, Portugal<br>
 http://www.belasartes.ulisboa.pt/
