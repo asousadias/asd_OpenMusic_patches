@@ -6,11 +6,11 @@ Antonio de SOUSA DIAS<br>
 a.sousadias@belasartes.ulisboa.pt
 
 ## Description:
-Patches programmed in Open Music exploring several compotion techniques, or musical analysis by synthesis.<br>
+Patches programmed in Open Music exploring several composition techniques, or musical analysis by synthesis.<br>
 NOTE: this is a working in progress, continuous update.
 
 ## Operation Mode
-Drag the folders to the Open music Workspace. Although these patches work as subpatches, I've added a complete patch with no dependencies - all patches are abstractions in order to garatee you should allways understand the connections.<br>
+Drag the folders to the Open music Workspace. Although these patches work as subpatches, I've added a complete patch with no dependencies - all patches are abstractions in order to guarantee you should always understand the connections.<br>
 Enjoy.
 
 ## Patch List
